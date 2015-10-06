@@ -9,8 +9,8 @@ void draw() {
   //Hat 
   background(255);
   strokeWeight(1);
-  stroke(mouseX,mouseY,mouseX);
-  fill(mouseX,mouseY,mouseX);
+  stroke(0);
+  fill(0);
   ellipse(85, 95, 150, 30);
   rect(35, 43, 100, 60, 20);
   triangle(37, 52, 28, 90, 40, 96);
@@ -39,7 +39,7 @@ void draw() {
   rect(60, 120, 5, 1);
 
   //mouth
-  fill(mouseX,mouseY,mouseX);
+  fill(0);
 rect(60,160,50,40,15,15,50,50);
 stroke(255);
 fill(255);
@@ -48,13 +48,13 @@ fill(255);
 
 //inside
 rect(65,170,40,15,6,6,50,50);
-fill(mouseX,mouseY,mouseX);
-stroke(mouseX,mouseY,mouseX);
+fill(0);
+stroke(0);
 rect(80,178,10,15,10,10,10,10);
 triangle(92,192,96,187,87,181);
 triangle(74,187,84,192,79,182);
 noFill();
-stroke(mouseX,mouseY,mouseX);
+stroke(0);
   curve(103,118,80,180,65,186,85,202);
   curve(83,126,90,180,103,186,80,202);
 }
